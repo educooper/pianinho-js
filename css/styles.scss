@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    text-align: center;
+}
+.content{
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+.tecla{
+    float:left;
+    button{
+        position:absolute;
+        background-color: #000;
+        height:120em;
+        width:30em;
+        border-radius: 10;
+        border-color: black;
+        border-style: solid;
+    }
+}
+.semitom{
+    button{
+        position:absolute;
+        background-color: #fff;
+        height:80em;
+        width:15em;
+        margin-left: 15em;
+    }
+
+}

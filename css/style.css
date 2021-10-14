@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    text-align: center;
+}
+.content{
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+.piano{
+    width: 95%;
+    margin: 20px auto;
+}
+.tecla{
+    float: left;
+    position:relative;
+}
+button{
+
+    border: 0.1em solid rgb(26, 26, 26);
+    border-radius:0.7em;
+    box-shadow: 0 10px #999;
+}
+button:active {
+    box-shadow: 0 3px #666;
+    transform: translateY(7px);
+}
+.semitom{
+    position:absolute;
+    margin-left: 2.7em;
+    background-color: #000;
+    height:9em;
+    width:2.5em;
+    z-index:440;
+}
+
+.tom{
+    position:relative;
+    background-color: #fff;
+    height:18em;
+    width:4em;
+    z-index:2;
+}
